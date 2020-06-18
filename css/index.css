@@ -3,9 +3,11 @@
     vertical-align: top;
     text-align: left;
     padding-bottom: 50px;
-    background-color: #B4AA9F;
+    padding-right: 15px;
+    background-color: #EEE5DB;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
 }
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -14,7 +16,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #b4aa9f; 
+    background-color: #EEE5DB; 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
@@ -23,7 +25,7 @@
     width: 23%;
     padding: 1%;
     text-align: left;
-    size: 50px;}
+    size: 50px;} 
 
 ul {
     width: 50%;
@@ -34,13 +36,16 @@ ul {
     padding: 25px;
     text-align: center;
 }
+img.heroImg{
+    border: 50px #EEE5DB solid;
+}
 .content {
     width: 500px;
     margin: 0 auto;
 }
 .footer {
     display: inline-block;
-    background-color: #B4AA9F;
+    background-color: #EEE5DB;
     color: white;
 }
 footer.footer {
@@ -50,6 +55,9 @@ footer.footer {
 }
 button {
     background-color: #b4aa9f;
+    height: 45px;
+    width: 155px;
+    font-size: 15px;
     border-color: #b4aa9f;
     color: white;
     font-family: 'Times New Roman', Times, serif;
