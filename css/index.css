@@ -1,21 +1,30 @@
 .inline-block {
-    display: inline-block;
+    display: inline-block; 
     vertical-align: top;
     text-align: left;
     padding-bottom: 50px;
-    background-color: #B4AA9F
-    ;
-
+    background-color: #B4AA9F;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 209px; /* Set the width of the sidebar */
+    position: sticky; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #b4aa9f; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
 .logo {
     width: 23%;
     padding: 1%;
-    text-align: center;
-}
-nav {
-    width: 73%;
-    padding: 1%;
-}
+    text-align: left;
+    size: 50px;}
+
 ul {
     width: 50%;
     margin-left: auto;
@@ -23,17 +32,38 @@ ul {
 .heroImg {
     height: 600px;
     padding: 25px;
+    text-align: center;
 }
 .content {
     width: 500px;
     margin: 0 auto;
 }
 .footer {
-    background-color: #B4AA9F
-    ;
-}
-ul.footer {
     display: inline-block;
+    background-color: #B4AA9F;
+    color: white;
+}
+footer.footer {
     vertical-align: top;
     text-align: center;
+    color: white;
+}
+button {
+    background-color: #b4aa9f;
+    border-color: #b4aa9f;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1 {
+    color: #545454;
+}
+p {
+    color: #545454;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+}
+p.Copyright {
+    text-align: left;
 }
