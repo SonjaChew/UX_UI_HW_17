@@ -1,30 +1,39 @@
 .inline-block {
     display: inline-block; 
     vertical-align: top;
-    text-align: left;
-    padding-bottom: 50px;
-    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    text-align: center;
     background-color: #EEE5DB;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 25px;
+    max-width: 300px;
+    white-space: nowrap;
+}
+header {
+    box-shadow: 4px 4px 5px grey;
+    width: 250px;
 }
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 209px; /* Set the width of the sidebar */
-    position: sticky; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
+    height: auto;
+    width:230px; /* Set the width of the sidebar */
+    max-width: 205px;
+    position: top; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; 
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #EEE5DB; 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    text-align: center;
+
 }
 
 .logo {
-    width: 23%;
+    width: 250px;
     padding: 1%;
-    text-align: left;
+    text-align: center;
     size: 50px;} 
 
 ul {
@@ -32,26 +41,29 @@ ul {
     margin-left: auto;
 }
 .heroImg {
-    height: 600px;
+    height: 550px;
     padding: 25px;
     text-align: center;
+    z-index: -1;
 }
-img.heroImg{
+#hero {
     border: 50px #EEE5DB solid;
+    border-radius: 50%;
+    max-width: 112px ;
 }
 .content {
     width: 500px;
     margin: 0 auto;
 }
 .footer {
-    display: inline-block;
+    display:inline-block flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     background-color: #EEE5DB;
     color: white;
-}
-footer.footer {
-    vertical-align: top;
-    text-align: center;
-    color: white;
+    width: 209px;
+    font-family:'Nunito', sans-serif;
+    
 }
 button {
     background-color: #b4aa9f;
@@ -60,18 +72,38 @@ button {
     font-size: 15px;
     border-color: #b4aa9f;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
+    border-radius: 10px;
+    box-shadow:4px 4px 5px grey;
 }
 h1 {
     color: #545454;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 30px;
 }
 p {
     color: #545454;
     font-size: 14px;
     font-style: normal;
+    font-family: 'Noto Serif SC', serif;
     text-align: center;
 }
-p.Copyright {
+.foot {
+    display: flex;
+    justify-content: space-between;
     text-align: left;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Serif SC', serif;
+    color: #545454;
 }
+
+#icon {
+    text-align: right;
+    max-width: 208px;
+    
+    display: flex;
+    align-items: flex-end;
+}
+
