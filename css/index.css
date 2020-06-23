@@ -15,6 +15,9 @@ header {
     border-style: solid;
     border-width: 22px;
     border-color: white;
+    border-left:50px;
+    border-right:50px;
+
 
 }
 .nav {
@@ -101,6 +104,7 @@ ul {
     height: auto;
     overflow-x: hidden; /* Disable horizontal scroll */
     text-align: center;
+    padding-top: 10px;
     
 }
 button {
@@ -113,7 +117,6 @@ button {
     font-family: 'Nunito', sans-serif;
     text-align: center;
     border-radius: 10px;
-    box-shadow:4px 4px 5px grey;
 }
 h1 {
     color: #545454;
