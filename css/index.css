@@ -1,39 +1,65 @@
 .inline-block {
-    display: inline-block; 
-    vertical-align: top;
-    padding-bottom: 10px;
-    padding-right: 50px;
-    text-align: center;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #EEE5DB;
     color: white;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
-    max-width: 300px;
+    padding-top: 15px;
     white-space: nowrap;
 }
 header {
+    background-color: #EEE5DB;
     box-shadow: 4px 4px 5px grey;
-    width: 250px;
+
 }
-.sidenav {
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around,  flex-end;
     height: auto;
-    width:230px; /* Set the width of the sidebar */
-    max-width: 205px;
-    position: top; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; 
-    top: 0; /* Stay at the top */
-    left: 0;
     background-color: #EEE5DB; 
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
     text-align: center;
-
 }
-
+#searchicon{
+    padding-left: 5px;
+}
+.searchBar{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.About {
+    padding-left: 20px;
+    padding-right:20px;
+}
+.MyWork {
+    padding-left: 20px;
+    padding-right:20px;
+}
+.MySkills {
+    padding-left: 20px;
+    padding-right:20px;
+}
+.Contact {
+    padding-left: 20px;
+    padding-right:20px;
+}
 .logo {
-    width: 250px;
-    padding: 1%;
-    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    padding:1%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: left;
     size: 50px;} 
 
 ul {
@@ -43,26 +69,33 @@ ul {
 .heroImg {
     height: 550px;
     padding: 25px;
+    padding-top: 75px;
     text-align: center;
     z-index: -1;
+    border-style: solid ;
+    border-width: 100px;
+    border-color: whitesmoke;
 }
 #hero {
-    border: 50px #EEE5DB solid;
+    border: 20px #EEE5DB solid;
     border-radius: 50%;
     max-width: 112px ;
+    box-shadow: 2px 2px 5px grey;
 }
 .content {
     width: 500px;
     margin: 0 auto;
 }
 .footer {
-    display:inline-block flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    background-color: #EEE5DB;
-    color: white;
-    width: 209px;
+    display:inline-block;
+    color: #b4aa9f;
     font-family:'Nunito', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: auto;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    text-align: center;
     
 }
 button {
@@ -84,10 +117,12 @@ h1 {
 }
 p {
     color: #545454;
-    font-size: 14px;
+    font-size: 18px;
+    width: 640px;
     font-style: normal;
     font-family: 'Noto Serif SC', serif;
     text-align: center;
+    padding-left: 500px;
 }
 .foot {
     display: flex;
