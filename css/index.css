@@ -2,16 +2,19 @@
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
-    background-color: #EEE5DB;
+    background-color: #b4aa9f;
     color: white;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
     padding-top: 15px;
     white-space: nowrap;
+    
 }
 header {
-    background-color: #EEE5DB;
-    box-shadow: 4px 4px 5px grey;
+    background-color: #b4aa9f;
+    border-style: solid;
+    border-width: 22px;
+    border-color: white;
 
 }
 .nav {
@@ -19,7 +22,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around,  flex-end;
     height: auto;
-    background-color: #EEE5DB; 
+    background-color: #b4aa9f; 
     overflow-x: hidden; /* Disable horizontal scroll */
     text-align: center;
 }
@@ -73,8 +76,10 @@ ul {
     text-align: center;
     z-index: -1;
     border-style: solid ;
-    border-width: 100px;
-    border-color: whitesmoke;
+    border-width: 300px;
+    border-top:50px;
+    border-bottom: 50px;
+    border-color: #EEE5DB;
 }
 #hero {
     border: 20px #EEE5DB solid;
@@ -122,7 +127,7 @@ p {
     font-style: normal;
     font-family: 'Noto Serif SC', serif;
     text-align: center;
-    padding-left: 500px;
+    padding-left: 300px;
 }
 .foot {
     display: flex;
