@@ -26,7 +26,7 @@ header {
     justify-content: space-around,  flex-end;
     height: auto;
     background-color: #b4aa9f; 
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden; 
     text-align: center;
 }
 #searchicon{
@@ -78,21 +78,16 @@ ul {
     padding-top: 75px;
     text-align: center;
     z-index: -1;
-    border-style: solid ;
-    border-width: 300px;
-    border-top:50px;
-    border-bottom: 50px;
-    border-color: #EEE5DB;
 }
 #para {
     display: flex;
     justify-content: center;
 }
 #hero {
-    border: 20px #EEE5DB solid;
+    border: 20px white solid;
     border-radius: 50%;
     max-width: 112px ;
-    box-shadow: 2px 2px 5px grey;
+    
 }
 .content {
     width: 500px;
