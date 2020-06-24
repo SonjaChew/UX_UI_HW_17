@@ -124,13 +124,16 @@ h1 {
     font-size: 30px;
 }
 p {
+    display: flex;
+    justify-content: center;
+    
     color: #545454;
     font-size: 18px;
     width: 640px;
     font-style: normal;
     font-family: 'Noto Serif SC', serif;
     text-align: center;
-    padding-left: 300px;
+   
 }
 .foot {
     display: flex;
