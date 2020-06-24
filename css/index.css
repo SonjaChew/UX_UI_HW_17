@@ -84,6 +84,10 @@ ul {
     border-bottom: 50px;
     border-color: #EEE5DB;
 }
+#para {
+    display: flex;
+    justify-content: center;
+}
 #hero {
     border: 20px #EEE5DB solid;
     border-radius: 50%;
@@ -126,7 +130,7 @@ h1 {
 p {
     display: flex;
     justify-content: center;
-    
+
     color: #545454;
     font-size: 18px;
     width: 640px;
